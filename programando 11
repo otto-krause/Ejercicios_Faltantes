@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+float altura, peso, inc;
+printf( "ingrese su altura: ");
+scanf("%f", &altura);
+printf(ingrese su peso: ");
+scanf("%f", &peso);
+inc=peso/(altura*altura);
+if(inc>25){
+printf("persona excedida de peso");
+}
+else{
+if (inc>=20){
+printf("persona de peso ideal");
+} else{
+printf("persona por debajo del peso ideal");
+}
+}
+return 0;
+}
