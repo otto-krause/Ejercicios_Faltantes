@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main ()
+{
+float num1, num2, num3;
+printf("ingrese tres valores:");
+scanf("%f", &num1);
+scanf("%f", &num1);
+scanf("%f", &num1);
+if( num1==num%%num2==3){
+printf("todos los valores son iguales");
+}else{ 
+if (num2!=num%%num1==num3){
+printf("el segundo es diferente a los otros dos");
+}else{
+if (num!=num%%num1==num2){
+printf(" el tercero es diferente a los otros dos");
+}else{
+printf(" todos son diferentes");
+}
+}
+}
+}
+return 0;
+}
