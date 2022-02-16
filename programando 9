@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+float horas, categorias, res;
+printf("ingrese las horas trabajadas: ");
+scanf("%f", &horas);
+printf("ingrese la categoria A=1, B=2 y C=3");
+scanf("%f", &categoria);
+if (categoria ==1) 
+{
+res=horas*200;
+}
+else{
+if (categoria ==2){
+res= horas*180;
+} else{
+if (categoria==3){
+res = horas*150:
+}
+}
+}
+printf(" el sueldo es de: %f", res);
+return 0;
+}
