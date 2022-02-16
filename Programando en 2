@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+Int main()
+{
+Float perímetro,área, val1, val2
+Printf("introduzca un valor: ");
+Scanf("%f", &val1);
+Printf("introduzca otro valor");
+Perímetro= 2*val1+2*val2;
+Área= val1*val2
+Printf(" el perímetro es: %f", perímetro);
+Printf(" el área es: %f", area);
+Return;
+}
