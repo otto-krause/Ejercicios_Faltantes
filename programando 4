@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+float sup, pres, fuerza;
+printf( "pone la superficie:");
+scanf("%f", &sup);
+printf("pone la fuerza:");
+scanf("%f", &fuerza);
+pres= fuerza/sup;
+printf(la presion es : %f", pres);
+return 0;
+}
