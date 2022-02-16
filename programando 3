@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+float por2, total, por1, val1, val2;
+printf("ingrese la cantidad de hombres que se postularon:");
+scanf("%f", &val1);
+printf(ingrese la cantidad de mujeres que se postularon:");
+scanf("%f", &val2);
+por1= (val1*100)/total;
+por2= (val2*100)/total;
+printf("El porcentaje de los hombres es: %f, por1);
+printf("El porcentaje de las mujeres e: %f, por2);
+return 0;
+}
