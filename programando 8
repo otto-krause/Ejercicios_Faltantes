@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+float horas total2, total, des1, edad;
+printf("ingrese las horas en servicios:");
+scanf("%f", &horas);
+if (edad>=70)
+{
+total= horas*50-horas*(50*50/100);
+}
+else{
+if (edad>=60){
+total= horas*50-horas*(50*30/100);
+}
+else{
+if(edad>=50){
+total= horas*50-horas*(50*20/100);
+}
+else{
+total= horas*50;
+}
+}
+}
+total2= total+(total*33/100);
+printf( "el precio sin impuestos es: %f", total);
+printf( "el precio con impuestos es: %f, total2);
+return 0;
+}
