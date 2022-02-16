@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+float val1, val2;
+printf( "ingrese una variable: ");
+scanf( "%f", &val1);
+printf( ingrese otra variable:");
+if (val1>val2) {
+printf(" la variable 1 es mayor a la variable 2");
+}
+if (val1==val2){
+printf(" la variable 1 y 2 son iguales");
+}
+return 0;
+}
