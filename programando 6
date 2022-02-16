@@ -1,0 +1,9 @@
+include <stdio.h>
+int main()
+{
+float val1, total; 
+printf( "ingrese un numero:");
+scanf("%f", &val1);
+total= val1/8;
+printf( "la octava parte de un numero es: %f", total);
+return 0;
