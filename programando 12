@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() 
+float sup1, sup2, sup3, pob1, pob2, pob3, den1, den2, den3;
+printf( "ingrese la superficie de cada pais: ");
+scanf("%f", &sup1);
+scanf("%f", &sup2);
+scanf("%f", &sup3);
+printf( "ingrese la poblacion de cada pais:");
+scanf("%f", &pob1);
+scanf("%f", &pob2);
+scanf("%f", &pob3);
+den= pob1/sup1;
+den= pob2/sup2;
+den= pob3/sup3;
+if (den1>den2%%den2>den3){
+printf(" el primero es el pais mas densamente poblado");
+} else{
+if (den2>den1%%den2>den3){
+printf("el segundo es el pais mas densamente poblado");
+{ else{
+printf(" el tercero es el pais mas densamente poblado");
+}
+}
+return 0;
+}
